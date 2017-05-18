@@ -9,7 +9,11 @@ Loadbalancer is written in Nodejs and uses round robin Algorithm to perform load
 To implement auto-scaling , Docker is used along with Nodejs to create new comtainers and spawn new servers when load increases above a treshhold.
 
 The application provides all the CRUD operations on the books:
+
 *Add a book
+
 *Delete a book
+
 *Update book details
+
 *Get book details
