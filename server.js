@@ -1,13 +1,14 @@
 //'use strict'; "mysql": "^2.13.0",
+
 var fs = require('fs');
 
 var port;
 
-	fs.readFile('port.txt', 'utf8' , function(err, fd) {
-	   if (err) {
-	      return console.error(err);
-	   }
-	  port =  fd;     
+fs.readFile('port.txt', 'utf8' , function(err, fd) {
+   if (err) {
+      return console.error(err);
+   }
+  port =  fd;     
 	
 
 var express = require('express');
